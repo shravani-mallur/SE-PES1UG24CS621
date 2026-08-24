@@ -1,0 +1,265 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 1100 850]
+  /Resources <<
+    /Font <<
+      /F1 4 0 R
+      /F2 5 0 R
+    >>
+  >>
+  /Contents 6 0 R
+>>
+endobj
+4 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<< /Length 3267 >>
+stream
+q
+1 1 1 rg 0 0 1100 850 re f
+
+% --- SYSTEM BOUNDARY SWIMLANE ---
+0.96 0.96 0.96 rg
+260 150 580 660 re f
+2 w 0.2 0.2 0.2 RG
+260 150 580 660 re S
+
+0.88 0.92 0.96 rg
+260 780 580 30 re f
+260 780 580 30 re S
+260 780 m 840 780 l S
+
+BT
+/F2 14 Tf
+0.1 0.1 0.3 rg
+375 790 Td
+(Remote Patient Vitals Alert & Monitoring App) Tj
+ET
+
+% --- USE CASES ---
+% UC-01: Ingest Telemetry Stream
+0.855 0.910 0.988 rg 0.424 0.557 0.749 RG 1.5 w
+500 720 m
+500 736.5685 455.2285 750 400 750 c
+344.7715 750 300 736.5685 300 720 c
+300 703.4315 344.7715 690 400 690 c
+455.2285 690 500 703.4315 500 720 c
+b
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+314 716 Td
+(UC-01: Ingest Telemetry Stream) Tj
+ET
+
+% UC-02: Monitor Real-Time Vitals
+0.855 0.910 0.988 rg 0.424 0.557 0.749 RG 1.5 w
+500 620 m
+500 636.5685 455.2285 650 400 650 c
+344.7715 650 300 636.5685 300 620 c
+300 603.4315 344.7715 590 400 590 c
+455.2285 590 500 603.4315 500 620 c
+b
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+312 616 Td
+(UC-02: Monitor Real-Time Vitals) Tj
+ET
+
+% UC-03: Evaluate Threshold Limits
+0.855 0.910 0.988 rg 0.424 0.557 0.749 RG 1.5 w
+800 720 m
+800 736.5685 755.2285 750 700 750 c
+644.7715 750 600 736.5685 600 720 c
+600 703.4315 644.7715 690 700 690 c
+755.2285 690 800 703.4315 800 720 c
+b
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+612 716 Td
+(UC-03: Evaluate Threshold Limits) Tj
+ET
+
+% UC-04: Escalate Emergency Alert
+1.0 0.902 0.800 rg 0.843 0.608 0.000 RG 1.5 w
+800 540 m
+800 556.5685 755.2285 570 700 570 c
+644.7715 570 600 556.5685 600 540 c
+600 523.4315 644.7715 510 700 510 c
+755.2285 510 800 523.4315 800 540 c
+b
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+612 536 Td
+(UC-04: Escalate Emergency Alert) Tj
+ET
+
+% UC-05: Acknowledge & Review Alert
+0.855 0.910 0.988 rg 0.424 0.557 0.749 RG 1.5 w
+800 380 m
+800 396.5685 755.2285 410 700 410 c
+644.7715 410 600 396.5685 600 380 c
+600 363.4315 644.7715 350 700 350 c
+755.2285 350 800 363.4315 800 380 c
+b
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+601 376 Td
+(UC-05: Acknowledge & Review Alert) Tj
+ET
+
+% UC-06: View Historical Trends
+0.855 0.910 0.988 rg 0.424 0.557 0.749 RG 1.5 w
+800 260 m
+800 276.5685 755.2285 290 700 290 c
+644.7715 290 600 276.5685 600 260 c
+600 243.4315 644.7715 230 700 230 c
+755.2285 230 800 243.4315 800 260 c
+b
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+616 256 Td
+(UC-06: View Historical Trends) Tj
+ET
+
+% --- ACTORS ---
+0.2 0.2 0.2 RG [] 0 d 1.5 w
+
+% Actor 1: Medical Telemetry Device
+132 745 m 132 751.6 126.6 757 120 757 c 113.4 757 108 751.6 108 745 c 108 738.4 113.4 733 120 733 c 126.6 733 132 738.4 132 745 c S
+120 733 m 120 705 l S
+105 720 m 135 720 l S
+120 705 m 108 685 l S
+120 705 m 132 685 l S
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+67 668 Td
+(Medical Telemetry) Tj
+ET
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+102 654 Td
+(Device) Tj
+ET
+
+% Actor 2: Remote Patient
+132 635 m 132 641.6 126.6 647 120 647 c 113.4 647 108 641.6 108 635 c 108 628.4 113.4 623 120 623 c 126.6 623 132 628.4 132 635 c S
+120 623 m 120 595 l S
+105 610 m 135 610 l S
+120 595 m 108 575 l S
+120 595 m 132 575 l S
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+78 558 Td
+(Remote Patient) Tj
+ET
+
+% Actor 3: On-Call Caregiver
+992 495 m 992 501.6 986.6 507 980 507 c 973.4 507 968 501.6 968 495 c 968 488.4 973.4 483 980 483 c 986.6 483 992 488.4 992 495 c S
+980 483 m 980 455 l S
+965 470 m 995 470 l S
+980 455 m 968 435 l S
+980 455 m 992 435 l S
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+930 418 Td
+(On-Call Caregiver) Tj
+ET
+
+% Actor 4: Emergency Medical Services (EMS)
+992 335 m 992 341.6 986.6 347 980 347 c 973.4 347 968 341.6 968 335 c 968 328.4 973.4 323 980 323 c 986.6 323 992 328.4 992 335 c S
+980 323 m 980 295 l S
+965 310 m 995 310 l S
+980 295 m 968 275 l S
+980 295 m 992 275 l S
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+925 258 Td
+(Emergency Medical) Tj
+ET
+BT
+/F1 12 Tf 0.1 0.1 0.1 rg
+932 244 Td
+(Services \(EMS\)) Tj
+ET
+
+% --- ASSOCIATIONS (SOLID LINES) ---
+0.3 0.3 0.3 RG [] 0 d 1.5 w
+140 720 m 300 720 l S
+140 610 m 300 620 l S
+800 540 m 960 470 l S
+800 380 m 960 470 l S
+800 260 m 960 470 l S
+800 540 m 960 310 l S
+
+% --- RELATIONSHIPS (DASHED LINES WITH ARROWS & LABELS) ---
+[5 3] 0 d
+500 720 m 600 720 l S
+[] 0 d
+590 725 m 600 720 l 590 715 l S
+BT
+/F1 11 Tf 0.2 0.2 0.4 rg
+524 727 Td
+(<<include>>) Tj
+ET
+
+[5 3] 0 d
+700 570 m 700 690 l S
+[] 0 d
+695 680 m 700 690 l 705 680 l S
+BT
+/F1 11 Tf 0.2 0.2 0.4 rg
+712 625 Td
+(<<extend>>) Tj
+ET
+
+Q
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000281 00000 n 
+0000000373 00000 n 
+0000000470 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+3790
+%%EOF
