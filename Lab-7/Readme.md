@@ -1,38 +1,51 @@
 # Lab 7 – Fuzz Testing for Input Validation Bugs
 
-This folder contains the movie-ticket input validation exercise adapted from the assigned Lab 7 repository.
+This folder contains the assigned movie-ticket input-validation exercise. The handout uses generic filenames (`processor.py` and `test_processor.py`), but the assigned repository uses `movie_tickets.py` and `test_movie_tickets.py`, with three functions: `parse_seat`, `total_price`, and `average_rating`.
 
 ## Files
-- `movie_tickets.py` – hardened application containing `parse_seat`, `total_price`, and `average_rating`.
-- `test_movie_tickets.py` – Hypothesis property-based fuzz tests and explicit invalid-input tests.
-- `requirements.txt` – Python test dependencies.
+- `movie_tickets_buggy.py` – unmodified starter implementation for the before-fix demonstration.
+- `test_movie_tickets_buggy.py` – Hypothesis tests aimed at the buggy implementation; these are expected to find failures.
+- `movie_tickets.py` – hardened final application.
+- `test_movie_tickets.py` – final Hypothesis fuzz tests and explicit invalid-input tests.
+- `requirements.txt` – dependencies.
 
 ## Setup
-Use Python 3.8 or newer. From this folder, install the test dependencies:
+Use Python 3.8 or newer. From this folder:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-## Run the application
+## Before fixing: reproduce the bugs
+Run the original starter application:
+
 ```bash
-python movie_tickets.py
+python movie_tickets_buggy.py
 ```
 
-Try valid values first (for example, `H12`, `150,250,400`, and `4 5 3`). Also try malformed values to observe the input-validation messages.
+Then run the fuzz tests against the original functions:
 
-## Run the fuzz tests
 ```bash
+python -m pytest -v test_movie_tickets_buggy.py
+```
+
+These tests are expected to fail and demonstrate edge-case problems such as non-string inputs, empty seat labels, empty CSV fields, and empty rating lists.
+
+## After fixing: run the final application
+Run:
+
+```bash
+python movie_tickets.py
 python -m pytest -v test_movie_tickets.py
 ```
 
-The functions reject invalid input with `ValueError` rather than leaking lower-level exceptions such as `TypeError`, `IndexError`, or `ZeroDivisionError`.
+The final functions validate input and reject invalid values using `ValueError` rather than exposing lower-level exceptions such as `TypeError`, `IndexError`, or `ZeroDivisionError`.
 
-## Important submission evidence
-The lab handout asks for screenshots of:
-1. Running the original buggy application.
-2. Hypothesis finding failures against the original buggy functions.
-3. Running the fixed application.
-4. All fuzz tests passing against the fixed application.
+## Screenshots required by the lab handout
+Capture screenshots from your terminal for:
+1. Original buggy application execution.
+2. Failing Hypothesis tests against the buggy starter.
+3. Fixed application execution.
+4. Passing tests against the fixed application.
 
-Capture these screenshots from your own terminal after running the commands. The initial-bug screenshots must be taken before replacing the starter implementation with the fixed file. The repository contains the hardened final application and updated tests; screenshots have not been captured.
+Put those screenshots into a PDF and save it in this folder. The code and instructions are in the repository; the screenshot PDF still needs to be generated from your own terminal runs.
